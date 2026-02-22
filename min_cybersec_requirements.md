@@ -156,7 +156,44 @@
 | 67. | Subjekts nodrošina, ka katrai tā īpašumā vai valdījumā esošajai informācijas sistēmai tiek veidotas rezerves kopijas.
 | 68. | Veidojot rezerves kopijas, subjekts nodrošina, ka rezerves kopija satur visus nepieciešamos datus, lai varētu atjaunot informācijas sistēmas darbību pilnā apjomā uz to brīdi, kad tika izveidota rezerves kopija, tai skaitā:
 | 68. | informācijas sistēmā glabātos datus, 
-| 68. | izpildāmo kodu, atbalsta programmatūru, automatizēto darbību skriptus, tehniskajos resursos regulāri veicamās darbības, operētājsistēmas uzdevumu pārvaldnieka komandas un izpildāmās datnes.
+| 68. | izpildāmo kodu, 
+| 68. | atbalsta programmatūru, 
+| 68. | automatizēto darbību skriptus, 
+| 68. | tehniskajos resursos regulāri veicamās darbības, 
+| 68. | operētājsistēmas uzdevumu pārvaldnieka komandas un izpildāmās datnes.
+| 69. | Subjekts nodrošina, ka ir pieejamas vismaz:
+| 69.1. | informācijas sistēmas tehniskās dokumentācijas rezerves kopijas;
+| 69.2. | informācijas sistēmas versijas un saistīto bibliotēku versiju pirmkoda rezerves kopijas, ja tiek izmantotas atvērtā koda bibliotēkas;
+| 69.3. | informācijas sistēmas darbību nodrošinošo tehnisko resursu konfigurāciju rezerves kopijas, ja vien tas ir tehniski iespējams.
+| 70. | Subjekts nodrošina, ka rezerves kopiju veidošanas periodiskums un uzglabāšanas laiks ļauj atjaunot informācijas sistēmu vismaz tādā stāvoklī, kāds bija:
+| 70.1. | A klases informācijas sistēmai – iepriekšējā dienā, pirms nedēļas (7–31 diena), pirms mēneša (30–365 dienas), iepriekšējā gadā (vecāku par 365 dienām);
+| 70.2. | B klases informācijas sistēmai – pēdējās nedēļas laikā (1–7 dienas), pirms nedēļas (7–31 diena), pirms mēneša (30–365 dienas), iepriekšējā gadā (vecāku par 365 dienām);
+| 70.3. | C klases informācijas sistēmai – pirms pēdējām nozīmīgajām izmaiņām informācijas sistēmā (piemēram, pirms migrācijas uz citu tehnoloģisku platformu), bet ne senāk kā pirms sešiem mēnešiem.
+| 71. | Subjekts nodrošina, ka:
+| 71.1. | par katru rezerves kopijas izveides gadījumu tiek veikts atbilstošs ieraksts žurnālfailos;
+| 71.2. | par rezerves kopijām atbildīgā persona un kiberdrošības pārvaldnieks tiek nekavējoties brīdināti, ja kārtējā rezerves kopijas izveide nav izdevusies;
+| 71.3. | A klases informācijas sistēmai pēc rezerves kopijas izveides, ja netiek izmantotas citas tehniskās metodes kopijas integritātes pārbaudei, tiek izveidota rezerves kopijas satura kontrolsumma.
+| 72. | Uzglabājot A un B klases informācijas sistēmu rezerves kopijas, subjekts nodrošina, ka:
+| 72.1. | rezerves kopijām gan fiziski, gan elektroniskajā vidē var piekļūt subjekta pilnvarotās personas, kā arī par rezerves kopiju atbildīgā persona un kiberdrošības pārvaldnieks;
+| 72.2. | A klases informācijas sistēmai vismaz viena pilna rezerves kopija tiek uzglabāta no informācijas sistēmas atdalītos tehniskajos resursos (piemēram, datu nesējos), ģeogrāfiski attālinātā vietā, telpās, kas aizsargātas pret nesankcionētu piekļuvi un aprīkotas ar automātisko ugunsgrēka atklāšanas un trauksmes signalizācijas sistēmu;
+| 72.3. | A un B klases informācijas sistēmai pēc rezerves kopijas pārvietošanas citā datu nesējā tiek pārbaudīta rezerves kopijas integritāte (piemēram, pārbaudot tās satura kontrolsummu).
+| 73. | Subjekts iekšējos dokumentos nosaka rezerves kopiju pārvaldības prasības un kārtību, tostarp 
+| 73. | rezerves kopiju veidošanas, glabāšanas un dzēšanas kārtību 
+| 73. | kārtību, kādā pārbauda, vai, izmantojot rezerves kopijas, iespējams atjaunot informācijas resursus un informācijas sistēmas darbību, 
+| 73. | atbildīgos par rezerves kopiju pārvaldību, 
+| 73. | rezerves kopiju aizsardzības prasības.
+| 74. | Subjekta kiberdrošības pārvaldnieks nodrošina rezerves kopiju pārvaldības un aizsardzības prasību ievērošanas kontroli, tostarp veic:
+| 74.1. | ikdienas rezerves kopiju sagatavošanas uzraudzību;
+| 74.2. | rezerves kopiju nolasīšanas pārbaudi izlases kārtā izvēlētai informācijas sistēmai, informācijas resursam vai tehniskā resursa konfigurācijai. Pārbaudi veic ne retāk kā reizi sešos mēnešos A klases informācijas sistēmai un ne retāk kā reizi gadā B klases informācijas sistēmai vai pēc būtiskām kopējamās informācijas sistēmas vai rezerves kopiju veidošanas procedūras izmaiņām.
+| 75. | IKT kritiskās infrastruktūras īpašnieks vai tiesiskais valdītājs: | K
+| 75.1. | nosaka par rezerves kopiju veidošanu, glabāšanu, pārbaudi un dzēšanu atbildīgo personu; | K
+| 75.2. | nekavējoties, bet ne vēlāk kā piecu darbdienu laikā pēc šo noteikumu 75.1. apakšpunktā minētās personas noteikšanas par to informē Satversmes aizsardzības biroju. | K
+
+### 3.11. Kiberhigiēnas pasākumi
+
+| Atsauce | Prasība | Subjekts (ja ir norāde) | Komentāri |
+|---------|---------|-------------------------|-----------|
+
 
 
 
