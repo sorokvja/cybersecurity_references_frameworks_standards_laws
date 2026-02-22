@@ -104,6 +104,60 @@
 ### 3.8. Tīklu pārvaldība
 | Atsauce | Prasība | Subjekts (ja ir norāde) | Komentāri |
 |---------|---------|-------------------------|-----------|
+| 55.1. | tīkls ir sadalīts loģiskos segmentos atbilstoši to lietojumam, subjekta darbības specifikai un elektroniski apstrādājamo informācijas resursu drošības klasēm; | K, B, S
+| 55.2. | ja attiecināms, subjekta viesu (apmeklētāju) piekļuve internetam tiek nodrošināta, izmantojot no iekšējā tīkla fiziski vai loģiski atdalītu tīklu ar atsevišķu reālo publisko IP adresi; | K, B, S
+| 55.3. | tīkla iekārtas un cita aparatūra, kas nav paredzēta tiešai lietotāju izmantošanai, ir loģiski atdalīta, izmantojot atsevišķus virtuālus vai fiziskus tīklus, nodrošinot tai piekļuvi tikai pilnvarotam personālam; | K, B, S
+| 55.4. | ja attiecināms, iekšējā bezvadu tīklā izmanto vismaz WPA2, WPA3 vai jaunāku bezvadu drošības protokolu ar līdzvērtīgu vai augstāku aizsardzības līmeni; | K, B, S
+| 55.5. | iekšējais tīkls ir fiziski vai loģiski nodalīts no ārējā tīkla; | K, B
+| 55.6. | informācijas sistēmu darbībai paredzētās datu plūsmas ir fiziski vai loģiski nodalītas no lietotāju ikdienas darbam ar informācijas sistēmām paredzētajām datu plūsmām; | K, B
+| 55.7. | datu pārraide starp iekšējo un ārējo tīklu, kā arī starp iekšējā tīkla segmentiem ir kontrolējama, nosakot atļauto datu plūsmu (piemēram, ugunsmūriem, starpniekserveriem); | K, B
+| 55.8. | piekļuve iekšējā tīklā esošajiem informācijas resursiem ārpus iekšējā tīkla ir iespējama, tikai izmantojot šifrētu virtuālā privātā tīkla (VPN) risinājumu ar daudzfaktoru autentifikāciju. | K, B
+
+### 3.9. Žurnālfailu pārvaldība
+| Atsauce | Prasība | Subjekts (ja ir norāde) | Komentāri |
+|---------|---------|-------------------------|-----------|
+| 57. | Subjekts nodrošina informācijas sistēmu žurnālfailu un tīkla plūsmas žurnālfailu veidošanu un uzglabāšanu. 
+| 57. | Žurnālfailus uzglabā:
+| 57.1. | A klases informācijas sistēmām un to darbību nodrošinošām operētājsistēmām, pakalpēm (servisiem), tīklu un serveru iekārtām – vismaz 18 mēnešus pēc ieraksta izdarīšanas;
+| 57.2. | B klases informācijas sistēmām un to darbību nodrošinošām operētājsistēmām, pakalpēm (servisiem), tīklu un serveru iekārtām – vismaz 12 mēnešus pēc ieraksta izdarīšanas;
+| 57.3. | C klases informācijas sistēmām un to darbību nodrošinošām operētājsistēmām, pakalpēm (servisiem), tīklu un serveru iekārtām – vismaz 6 mēnešus pēc ieraksta izdarīšanas.
+| 58. | Informācijas sistēmas žurnālfailos ietver informāciju par konkrētiem informācijas sistēmas notikumiem, tostarp:
+| 58.1. | informācijas sistēmas ieslēgšanu un izslēgšanu;
+| 58.2. | kontu izveidi, grozīšanu vai dzēšanu, kontu piekļuves tiesību izmaiņām;
+| 58.3. | kontu piekļuvi informācijas resursiem, tostarp neveiksmīgiem piekļuves mēģinājumiem;
+| 58.4. | datu pievienošanu, izmaiņām, dzēšanu un datu atlasi;
+| 58.5. | tehnisko resursu konfigurāciju izmaiņām;
+| 58.6. | informācijas sistēmas paziņojumiem, brīdinājumiem un citiem IKT notikumiem, kas varētu liecināt par kiberincidentu vai citu apdraudējumu informācijas sistēmas vai informācijas resursa drošībai.
+| 59. | Informācijas sistēmas žurnālfailos fiksē:
+| 59. | informācijas sistēmas notikuma laiku, kas sinhronizēts ar augstas precizitātes tīkla laika protokola (NTP) serveri (vismaz STRATUM 2 līmeņa), 
+| 59. | IP adresi, no kuras veikta darbība, vai citu iekārtas unikālu identifikatoru, kas kombinēts ar lietotāja identifikatoru un ļauj nepārprotami identificēt iekārtu un lietotāja kontu, no kura veikta darbība, 
+| 59. | darbības aprakstu, 
+| 59. | informāciju par darbības iniciatoru (piemēram, lietotāja identifikators, pieslēguma metadati).
+| 60. | Tīkla plūsmas žurnālfailos ietver informāciju par datu nosūtīšanas un saņemšanas notikumiem. Tīkla plūsmas žurnālfailos fiksē vismaz šādu informāciju:
+| 60.1. | notikuma laiku, kas sinhronizēts ar augstas precizitātes tīkla laika protokola (NTP) serveri;
+| 60.2. | datu nosūtītāja (avota) un saņēmēja (galamērķa) IP adreses;
+| 60.3. | avota un galamērķa izmantotos tīkla aplikācijas līmeņa protokolus (piemēram, HTTP, HTTPS, FTP);
+| 60.4. | ja attiecināms, avota unikālo identifikatoru (MAC adrese);
+| 60.5. | izmantoto tīkla transporta protokolu (piemēram, TCP, UDP);
+| 60.6. | pārsūtīto datu apjomu.
+| 61. | Ja informācijas sistēmas vai tīkla uzbūves dēļ tehniski nav iespējams nodrošināt laika fiksēšanas risinājuma sinhronizēšanu ar kiberincidentu novēršanas institūcijas tīmekļvietnē norādīto augstas precizitātes tīkla laika protokola (NTP) serveri, subjektam ir pienākums nodrošināt citu laika fiksēšanas metodi, to saskaņojot attiecīgi ar [Nacionālo kiberdrošības centru](https://www.cyber.gov.lv/lv) vai [Satversmes](https://likumi.lv/ta/id/57980-latvijas-republikas-satversme) aizsardzības biroju.
+| 62. | Žurnālfailu ierakstus veido mašīnlasāmā formātā. 
+| 62. | Pārvaldot žurnālfailus, subjekts īsteno drošības pasākumus, lai nodrošinātu IKT notikumu ticamu reģistrēšanu un efektīvu kiberincidentu analīzi.
+| 63. | Subjekts nodrošina žurnālfailu aizsardzību pret neautorizētu piekļuvi, ierakstu izmainīšanu un dzēšanu.
+| 64. | Subjekts iekšējos normatīvajos aktos nosaka žurnālfailu pārvaldības prasības un kārtību, tostarp žurnālfailu ierakstu analīzes, pārbaužu kārtību un regularitāti, atbildīgos par žurnālfailu pārvaldību, kā arī žurnālfailu aizsardzības prasības.
+| 65. | Subjekta kiberdrošības pārvaldnieks nodrošina žurnālfailu pārvaldības un aizsardzības prasību ievērošanas kontroli.
+| 66. | IKT kritiskās infrastruktūras īpašnieks vai tiesiskais valdītājs:
+| 66.1. | nosaka par žurnālfailu pārvaldību atbildīgo personu; | K 
+| 66.2. | nekavējoties, bet ne vēlāk kā piecu darbdienu laikā pēc šo noteikumu 66.1. apakšpunktā minētās personas noteikšanas par to informē Satversmes aizsardzības biroju. | K 
+
+### 3.10. Rezerves kopiju pārvaldība
+| Atsauce | Prasība | Subjekts (ja ir norāde) | Komentāri |
+|---------|---------|-------------------------|-----------|
+| 67. | Subjekts nodrošina, ka katrai tā īpašumā vai valdījumā esošajai informācijas sistēmai tiek veidotas rezerves kopijas.
+| 68. | Veidojot rezerves kopijas, subjekts nodrošina, ka rezerves kopija satur visus nepieciešamos datus, lai varētu atjaunot informācijas sistēmas darbību pilnā apjomā uz to brīdi, kad tika izveidota rezerves kopija, tai skaitā:
+| 68. | informācijas sistēmā glabātos datus, 
+| 68. | izpildāmo kodu, atbalsta programmatūru, automatizēto darbību skriptus, tehniskajos resursos regulāri veicamās darbības, operētājsistēmas uzdevumu pārvaldnieka komandas un izpildāmās datnes.
+
 
 
 to be continued...
