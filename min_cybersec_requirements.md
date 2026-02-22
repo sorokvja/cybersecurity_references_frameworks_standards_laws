@@ -81,6 +81,30 @@
 | 50.1. | identificē lietotāju grupas, izvērtējot lietotāju nepieciešamību piekļūt informācijas resursam;
 | 50.2. | nosaka identificēto lietotāju piekļuves tiesību līmeni un autentifikācijas metodes, ņemot vērā informācijas resursa veidu un informācijas sistēmas klasi;
 | 50.3. | piešķir lietotāju kontiem piekļuves tiesības, ievērojot principu "nepieciešamība zināt" un mazāko privilēģiju principu, nodrošinot tikai minimāli nepieciešamo piekļuves tiesību līmeni lietotāja kontam, lai lietotājs spētu veikt subjekta noteiktās darbības informācijas sistēmā, ja vien tas ir tehniski iespējams.
+| 51.1. | Subjekts nodrošina, ka lietotājs var veikt darbības ar informācijas resursiem informācijas sistēmā tikai pēc veiksmīgas autentifikācijas ar viņam piešķirto lietotāja kontu. Ja informācijas sistēmas darbības nepārtrauktības dēļ aktīvā lietotāja konta nomaiņa tās lietošanas laikā nav iespējama, pieļaujams pēc veiksmīgas autentifikācijas informācijas sistēmā izmantot kopīgu kontu vairākiem lietotājiem, ja tiek nodrošināta iespēja identificēt lietotāju citā veidā (piemēram, maiņu grafiks, videonovērošana, elektronisks vai papīra lietotāju žurnāls);
+| 51.2. | Subjekts nodrošina, ka sistēmkontiem ir tikai tādas tiesības tehniskajos resursos, kādas nepieciešamas, lai nodrošinātu tīkla vai informācijas sistēmas darbību, tehniskā resursa funkciju vai pakalpojumu
+| 51.3. | Subjekts nodrošina, ka ja vien tas tehniski ir iespējams, informācijas sistēmas tehniskajos resursos ir iestrādāti kontroles mehānismi, lai novērstu iespēju lietotājiem lietot sistēmkontus
+| 51.4. | Subjekts nodrošina, ka standarta lietotāja kontu neizmanto tīklu, informācijas sistēmu vai tehnisko resursu administrēšanai. Ja informācijas sistēmas tehniskais risinājums ļauj droši veikt administrēšanu, piešķirot (eskalējot) standarta lietotāja kontam administratora tiesības, tad uzskatāms, ka standarta lietotāja konts ar administratora tiesībām ir administratora lietotāja konts
+| 51.5. | Subjekts nodrošina, ka administratora lietotāja kontu neizmanto ikdienas darbam ar informācijas sistēmu vai IKT resursu
+| 51.6. | Subjekts nodrošina, ka pastāv tehniskas iespējas apturēt jebkura konta darbību, ja tas ir nepieciešams drošības apsvērumu dēļ
+| 52. | Subjekts nodrošina obligātu daudzfaktoru autentifikācijas izmantošanu, lai piekļūtu:
+| 52.1. | A klases informācijas sistēmas administratora lietotāja kontam un standarta lietotāja kontam;
+| 52.2. | B klases informācijas sistēmas administratora lietotāja kontam;
+| 52.3. | B klases informācijas sistēmas standarta lietotāja kontam, ja tiek izmantota attālināta piekļuve informācijas sistēmai no ārējā tīkla un šai piekļuvei netiek izmantots šifrēta virtuālā privātā tīkla (VPN) risinājums ar daudzfaktoru autentifikāciju.
+| 53. | Subjekts nodrošina, ka visi informācijas sistēmas reģistrētie lietotāji ir iepazinušies ar informācijas sistēmas lietošanas noteikumiem. Subjekta pienākums ir nodrošināt, ka:
+| 53.1. | visi informācijas sistēmas reģistrētie lietotāji ir informēti par informācijas sistēmas lietošanas noteikumiem pirms informācijas sistēmas lietošanas uzsākšanas;
+| 53.2. | informācijas sistēmas lietošanas noteikumi ir pieejami informācijas sistēmas reģistrētajiem lietotājiem visā informācijas sistēmas lietošanas laikā.
+| 54. | Subjekta kiberdrošības pārvaldniekam ir tiesības:
+| 54.1. | pārbaudīt lietotāju kontu sarakstu, tiem piešķirtās piekļuves tiesības un to veiktās darbības informācijas sistēmā, tostarp lietotāju veiktās informācijas resursu izmaiņas un tehnisko resursu konfigurāciju izmaiņas;
+| 54.2. | nodrošināt žurnālfailu ierakstu analīzi par lietotāju veiktajām darbībām;
+| 54.3. | ja noticis kiberincidents vai ja ir pamatotas aizdomas par to, bloķēt vai uzdot administratoram bloķēt ar kiberincidentu saistītos lietotāju kontus
+| 54.4. | pārbaudīt reģistrēto lietotāju zināšanas par informācijas sistēmas lietošanas noteikumiem un nepieciešamības gadījumā organizēt papildu apmācības, lai šīs zināšanas pilnveidotu
+| 54.5. | pieprasīt no informācijas sistēmas uzturētāja informācijas sistēmas žurnālfailu ierakstus, ja informācijas sistēmu vai tās daļu uzturēšana notiek ārpus subjekta īpašumā vai valdījumā esošās IKT infrastruktūras.
+
+### 3.8. Tīklu pārvaldība
+| Atsauce | Prasība | Subjekts (ja ir norāde) | Komentāri |
+|---------|---------|-------------------------|-----------|
+
 
 to be continued...
 
