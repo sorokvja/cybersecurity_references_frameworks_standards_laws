@@ -190,10 +190,34 @@
 | 75.2. | nekavējoties, bet ne vēlāk kā piecu darbdienu laikā pēc šo noteikumu 75.1. apakšpunktā minētās personas noteikšanas par to informē Satversmes aizsardzības biroju. | K
 
 ### 3.11. Kiberhigiēnas pasākumi
-
 | Atsauce | Prasība | Subjekts (ja ir norāde) | Komentāri |
 |---------|---------|-------------------------|-----------|
+| 76. | Subjekts organizē tā nodarbinātajiem un amatpersonām, kuri ir subjekta IKT resursu un informācijas sistēmu reģistrētie lietotāji, apmācību kiberdrošības jautājumos, izvēloties tādu apmācības veidu un saturu, kas atbilst nodarbināto un amatpersonu profesionālajai sagatavotībai, ņemot vērā viņu izglītību, iepriekšējo apmācību, darba pieredzi un spējas, kā arī subjekta darbības specifiku.
+| 76. | Apmācību kopums ietver:
+| 76.1. | subjekta nodarbināto un amatpersonu, kuri lieto IKT resursus un informācijas sistēmas, kiberdrošības instruktāžas, tai skaitā:
+| 76.1.1. | sākotnējās kiberdrošības instruktāžas – ne vēlāk kā viena mēneša laikā no fiziskās personas lietotāja konta reģistrācijas brīža;
+| 76.1.2. | kārtējās kiberdrošības instruktāžas – vismaz reizi kalendāra gadā;
+| 76.1.3. | ārkārtas kiberdrošības instruktāžas – pēc kiberdrošības pārvaldnieka ieskatiem (piemēram, identificējot jaunu risku, ievainojamību vai kiberapdraudējumu, paredzot normatīvo aktu prasību izmaiņas, plānojot vai veicot nozīmīgas izmaiņas IKT infrastruktūrā, programmatūrā vai biznesa procesos);
+| 76.2. | subjekta nodarbināto un amatpersonu IKT personāla apmācības kiberrisku pārvaldības un IKT darbības nepārtrauktības pasākumu efektīvai īstenošanai – vismaz reizi kalendāra gadā. Kiberdrošības pārvaldnieks ir tiesīgs organizēt papildu apmācības, piemēram, identificējot jaunu risku, ievainojamību vai kiberapdraudējumu.
+| 77. | IKT kritiskās infrastruktūras īpašnieks vai tiesiskais valdītājs: | K
+| 77.1. | piešķir fiziskajai personai lietotāja kontu pēc šo noteikumu 76.1.1. apakšpunktā noteiktās sākotnējās kiberdrošības instruktāžas; | K
+| 77.2. | liedz fiziskajai personai piekļuvi tās lietotāja kontam, ja tai nav veikta šo noteikumu 76.1.2. apakšpunktā noteiktā ikgadējā kiberdrošības instruktāža; | K
+| 77.3. | organizē ārpakalpojuma sniedzēja darbiniekiem, kas ir iesaistīti līguma izpildē, kiberdrošības instruktāžas pirms līguma izpildes uzsākšanas. | K
+| 78. | apmācību saturs tiek pārskatīts un nepieciešamības gadījumā aktualizēts vismaz reizi gadā vai mainoties apstākļiem (piemēram, izceļoties jauniem kiberapdraudējumiem, mainoties kiberriska līmenim, notiekot kiberincidentam).
+| 79. | Subjekts nodrošina, ka visiem tā nodarbinātajiem un amatpersonām, kas lieto subjekta  IKT resursus un informācijas sistēmas, ir pieejami aktuālie kiberdrošības instruktāžu materiāli. 
+| 80. | Subjekts uzskaita organizētās kiberdrošības instruktāžas un novērtē nodarbināto un amatpersonu, kuri lieto subjekta IKT resursus un informācijas sistēmas, zināšanas kiberdrošības jautājumos un īstenoto kiberdrošības instruktāžu efektivitāti.
 
+### 3.12. Šifrēšanas prasības[^9]
+| Atsauce | Prasība | Subjekts (ja ir norāde) | Komentāri |
+|---------|---------|-------------------------|-----------|
+| 81. | Subjekts lieto šifrēšanas risinājumus, ja tas ir tehniski iespējams, vismaz: | | punkts 83. - Subjekts var nelietot šo noteikumu 81. punktā minētos šifrēšanas risinājumus, ja subjekts risku novērtējuma ietvaros ir noteicis risku novēršanas pasākumus gadījumā, ja šifrēšanas risinājumu izmantošana nav tehniski iespējama.
+| 81.1. | A un B konfidencialitātes klases informācijas resursu pārsūtīšanai un pārraidei publiskajos datu pārraides tīklos, kā arī ārējos un iekšējos IKT infrastruktūras bezvadu tīklos;
+| 81.2. | A konfidencialitātes klases informācijas resursu glabāšanai.
+| 82. | Subjekts var lietot šifrēšanas risinājumus B konfidencialitātes klases informācijas resursu glabāšanai, kā arī C konfidencialitātes klases informācijas resursu pārsūtīšanai, pārraidei vai glabāšanai.
+| 85. | Subjekts iekšējos normatīvajos aktos nosaka:
+| 85.1. | minimālo pieļaujamo šifrēšanas aizsardzības (noturības) līmeni, ņemot vērā informācijas resursu konfidencialitātes līmeni;
+| 85.2. | šifrēšanas atslēgu pārvaldības politiku, lai nodrošinātu, ka tikai autorizētas personas var atšifrēt datus;
+| 85.3. | prasības drošai šifrēšanas atslēgu izveidošanai, uzstādīšanai, glabāšanai, nomaiņai un likvidēšanai, tai skaitā fiziskās un digitālās drošības prasības.
 
 
 
@@ -208,3 +232,5 @@ to be continued...
 [^6]: kiberdrošības incidents (turpmāk — kiberincidents) — notikums, kas apdraud apstrādātus datus vai tādu pakalpojumu pieejamību, autentiskumu, integritāti vai konfidencialitāti, kurus piedāvā tīklu un informācijas sistēmas vai kuri pieejami ar tīklu un informācijas sistēmu starpniecību [Nacionālās kiberdrošības likums, 1. pants](https://likumi.lv/ta/id/353390#p1)
 [^7]: gandrīz noticis kiberincidents — notikums, kurš būtu varējis apdraudēt apstrādātus datus vai tīklu un informācijas sistēmu piedāvāto vai ar tīklu un informācijas sistēmu starpniecību pieejamo pakalpojumu pieejamību, autentiskumu, integritāti vai konfidencialitāti, bet kura pilnīga īstenošanās tika sekmīgi novērsta vai kurš neīstenojās [Nacionālās kiberdrošības likums, 1. pants](https://likumi.lv/ta/id/353390#p1)
 [^8]: ievainojamība — informācijas un komunikācijas tehnoloģiju vai to pakalpojumu vājums, uzņēmība pret tehniskām problēmām vai nepilnība, kas var tikt izmantota kiberapdraudējumam [Nacionālās kiberdrošības likums, 1. pants](https://likumi.lv/ta/id/353390#p1)
+[^9]: Punkts 84. - Nacionālais kiberdrošības centrs sadarbībā ar Satversmes aizsardzības biroju izstrādā, vismaz reizi gadā pārskata un nepieciešamības gadījumā aktualizē vadlīnijas subjektiem šifrēšanas risinājumu izmantošanai. Vadlīnijas publicē Nacionālā kiberdrošības centra ([saite](https://www.cyber.gov.lv/lv/minimalas-kiberdrosibas-prasibas-un-nis2/vadlinijas)) un Satversmes aizsardzības biroja tīmekļvietnē ([var atrast šeit](https://www.sab.gov.lv/sab-uzdevumi/it-kritiskas-infrastrukturas-uzraudziba/)).
+
