@@ -210,7 +210,7 @@
 ### 3.12. Šifrēšanas prasības[^9]
 | Atsauce | Prasība | Subjekts (ja ir norāde) | Komentāri |
 |---------|---------|-------------------------|-----------|
-| 81. | Subjekts lieto šifrēšanas risinājumus, ja tas ir tehniski iespējams, vismaz: | | punkts 83. - Subjekts var nelietot šo noteikumu 81. punktā minētos šifrēšanas risinājumus, ja subjekts risku novērtējuma ietvaros ir noteicis risku novēršanas pasākumus gadījumā, ja šifrēšanas risinājumu izmantošana nav tehniski iespējama.
+| 81. | Subjekts lieto šifrēšanas risinājumus, ja tas ir tehniski iespējams, vismaz:[^10] 
 | 81.1. | A un B konfidencialitātes klases informācijas resursu pārsūtīšanai un pārraidei publiskajos datu pārraides tīklos, kā arī ārējos un iekšējos IKT infrastruktūras bezvadu tīklos;
 | 81.2. | A konfidencialitātes klases informācijas resursu glabāšanai.
 | 82. | Subjekts var lietot šifrēšanas risinājumus B konfidencialitātes klases informācijas resursu glabāšanai, kā arī C konfidencialitātes klases informācijas resursu pārsūtīšanai, pārraidei vai glabāšanai.
@@ -219,7 +219,81 @@
 | 85.2. | šifrēšanas atslēgu pārvaldības politiku, lai nodrošinātu, ka tikai autorizētas personas var atšifrēt datus;
 | 85.3. | prasības drošai šifrēšanas atslēgu izveidošanai, uzstādīšanai, glabāšanai, nomaiņai un likvidēšanai, tai skaitā fiziskās un digitālās drošības prasības.
 
+### 4.1. Vispārīgās ārpakalpojumu prasības
+| Atsauce | Prasība | Subjekts (ja ir norāde) | Komentāri |
+|---------|---------|-------------------------|-----------|
+| 86. | Subjekts ārpakalpojuma līgumu par IKT resursa vai pakalpojuma iegādi nedrīkst slēgt:
+| 86.1. | ja ārpakalpojuma sniedzējs ir juridiska persona, kas reģistrēta Krievijas Federācijā, Baltkrievijas Republikā vai valstī, kuru Eiropas Parlaments vai Latvijas Republikas Saeima ir atzinusi par terorismu atbalstošu valsti;
+| 86.2. | ja ārpakalpojuma sniedzējs, tā dalībnieks, kapitāla daļu īpašnieks vai patiesais labuma guvējs (ja saskaņā ar [Noziedzīgi iegūtu līdzekļu legalizācijas un terorisma un proliferācijas finansēšanas novēršanas likumu](https://likumi.lv/ta/id/178987-noziedzigi-iegutu-lidzeklu-legalizacijas-un-terorisma-un-proliferacijas-finansesanas-noversanas-likums) patieso labuma guvēju ir iespējams noskaidrot) ir šo noteikumu 86.1. apakšpunktā minētās valsts pilsonis;
+| 86.3. | ja ārpakalpojuma sniedzēja juridiskās personas valde un padome sastāv no fiziskām personām, kuras ir šo noteikumu 86.1. apakšpunktā minētās valsts pilsoņi;
+| 86.4. | ja ārpakalpojuma sniegšanā ir iesaistīts šo noteikumu 86.1. apakšpunktā minētās valsts pilsonis;
+| 86.5. | ja iegādājamā IKT resursa ražotājs ir šo noteikumu 86.1. apakšpunktā minētajā valstī reģistrēta juridiska persona vai šīs valsts pilsonis.
+| 87. | Iegādājoties ārpakalpojumu, subjekts:
+| 87.1. | sniedz ārpakalpojuma aprakstu un nosaka precīzas prasības attiecībā uz ārpakalpojuma apjomu un kvalitāti;
+| 87.2. | sniedz norādes uz [Nacionālās kiberdrošības likumā](https://likumi.lv/ta/id/353390-nacionalas-kiberdrosibas-likums) un šajos noteikumos noteiktajām prasībām;
+| 87.3. | paredz subjekta un ārpakalpojuma sniedzēja tiesības un pienākumus, tai skaitā:
+| 87.3.1. | subjekta tiesības pastāvīgi uzraudzīt ārpakalpojuma sniegšanas kvalitāti un tiesības saņemt pakalpojuma uzraudzībai nepieciešamo informāciju, tai skaitā žurnālfailus;
+| 87.3.2. | ārpakalpojuma sniedzēja pienākumu nekavējoties ziņot subjektam par konstatēto kiberincidentu, ja tas ietekmē vai var ietekmēt subjekta darbību vai ārpakalpojuma sniedzēja sniegto pakalpojumu, kā arī veikt visas kiberincidenta novēršanai nepieciešamās darbības;
+| 87.3.3. | ārpakalpojuma sniedzēja pienākumu informēt subjektu par ārpakalpojuma sniedzēja ārpakalpojuma izpildei piesaistītu citu pakalpojuma sniedzēju (turpmāk – apakšuzņēmējs) un viņa atbilstību šajos noteikumos un ārpakalpojuma līgumā noteiktajām prasībām;
+| 87.3.4. | konfidencialitātes saistības;
+| 87.4. | nosaka tīklam vai informācijas sistēmai veicamās pārbaudes, tostarp Nacionālajā kiberdrošības likumā un šajos noteikumos noteiktās obligātās pārbaudes, kā arī pārbaudes, kuras subjekts ir noteicis atbilstoši kiberdrošības politikai un kiberrisku pārvaldības un IKT darbības nepārtrauktības plānam;
+| 87.5. | nosaka piekļuves prasības datiem un to uzglabāšanai, kā arī pienākumu ārpakalpojuma sniedzējam pēc līguma termiņa beigām pēc subjekta izvēles dzēst ārpakalpojuma sniedzēja rīcībā nonākušos datus vai tos atdot subjektam, dzēšot visas esošās kopijas, izņemot gadījumu, ja līgums tiek pagarināts.
+| 88. | Slēdzot ārpakalpojuma līgumu par jaunas informācijas sistēmas izstrādi vai esošās informācijas sistēmas izmaiņām, subjekts:
+| 88.1. | nosaka informācijas sistēmas uzturēšanas un atbalsta nodrošināšanas (tai skaitā informācijas sistēmas drošības nepilnību novēršanas) laikposmu;
+| 88.2. | paredz iespēju šo noteikumu 88.1. apakšpunktā noteiktajā laikposmā turpināt informācijas sistēmas ekspluatēšanu ar informācijas sistēmas funkcionēšanai obligāti nepieciešamā programmnodrošinājuma jaunākām versijām;
+| 88.3. | paredz, ka A un B konfidencialitātes klases informācijas sistēmu:
+| 88.3.1. | testa vidē tiek izmantoti tikai sintētiski dati (no sākotnējiem datiem izveidoti mākslīgi dati, kas attēlo sākotnējo datu īpašības un struktūru un, veicot vienu un to pašu datu analīzi, sniedz līdzvērtīgus rezultātus);
+| 88.3.2. | ārpakalpojuma līguma izpilde netiek veikta attiecīgās informācijas sistēmas produkcijas vidē.
+| 89. | Pirms ārpakalpojuma iegādes subjekts apzina un novērtē ar ārpakalpojuma iegādi saistītos riskus, tostarp piegādes ķēdes drošības riskus, un nosaka ārpakalpojuma kvalitātes, drošības un pieejamības prasības minēto risku mazināšanai, kā arī ārpakalpojuma izbeigšanas stratēģiju.
+| 90. | Ārpakalpojuma sniedzējs nodrošina, ka apakšuzņēmējs atbilst visām prasībām, kas noteiktas ārpakalpojuma sniedzējam, un ka ievēro tās. Subjekts un ārpakalpojuma sniedzējs ir atbildīgs par apakšuzņēmējiem deleģēto pakalpojumu uzraudzību un atbilstību šajā nodaļā noteiktajām prasībām.
+| 91. | Ārpakalpojuma sniedzējs ne vēlāk kā līdz līguma noslēgšanai par informācijas sistēmas izstrādi, esošās informācijas sistēmas izmaiņām, informācijas sistēmas uzturēšanu vai IKT resursu apkopi iesniedz subjektam ārpakalpojuma izpildē iesaistīto fizisko personu sarakstu ar skaidrojumu attiecīgās fiziskās personas iesaistei ārpakalpojuma līguma izpildē. Ārpakalpojuma sniedzējs informē subjektu par ārpakalpojuma izpildē iesaistīto fizisko personu izmaiņām līguma izpildes laikā.
+| 92. | Subjekts nodrošina, ka pirms ārpakalpojuma līguma slēgšanas tas tiek saskaņots ar subjekta kiberdrošības pārvaldnieku. Subjekts nosaka atbildīgo personu par līguma izpildes uzraudzību kiberdrošības jomā.
 
+### 4.2. Īpašās ārpakalpojumu prasības IKT kritiskajai infrastruktūrai
+
+### 4.3. Īpašās ārpakalpojumu prasības būtisko pakalpojumu sniedzējiem
+
+### 5. Papildu prasības IKT kritiskajai infrastruktūrai
+
+### 6. Papildu prasības kiberincidentu novēršanas institūcijām
+
+### 7. Kiberincidentu vadība
+| Atsauce | Prasība | Subjekts (ja ir norāde) | Komentāri |
+|---------|---------|-------------------------|-----------|
+| 117. | Konstatējot kiberincidentu, subjekts nekavējoties novērtē kiberincidenta nozīmīgumu.
+| 118. | Kiberincidents ir uzskatāms par nozīmīgu, ja:
+| 118.1. | tas atbilst būtiska kiberincidenta definīcijai regulas [2024/2690](http://eur-lex.europa.eu/eli/reg/2024/2690/oj/?locale=LV) 3. panta 1. punkta izpratnē;
+| 118.2. | tas atbilst **<ins>vismaz vienai</ins>** no šādām pazīmēm:
+| 118.2.1. | kiberincidents apdraud sabiedrības veselību vai drošību, valsts drošību, ekonomisko drošību, valsts reputāciju, ārējās attiecības, pilsonisko brīvību vai pamattiesības;
+| 118.2.2. | kiberincidents rada mantiskus zaudējumus subjektam, citiem subjektiem, Latvijas Republikai, pakalpojumu saņēmējiem vai citām personām ***vismaz 500 000 euro vai 5 % apmērā no subjekta pēdējā finanšu gada apgrozījuma (atkarībā no tā, kura summa ir mazāka)***;
+| 118.2.3. | kiberincidents rada vai var radīt kaitējumu fiziskās personas dzīvībai vai veselībai;
+| 118.2.4. | kiberincidents rada vai var radīt ietekmi uz ierobežotas pieejamības vai klasificētās informācijas konfidencialitāti, integritāti vai pieejamību;
+| 118.2.5. | kiberincidents ir izraisījis vai var izraisīt būtiskā vai svarīgā pakalpojuma saņemšanas vai IKT kritiskās infrastruktūras funkcionēšanas traucējumus;
+| 118.2.6. | kiberincidents ir pārrobežu kiberincidents Nacionālā kiberdrošības likuma 1. panta 21. punkta izpratnē.
+| 119. | Par nozīmīgu kiberincidentu subjekts Nacionālās kiberdrošības likuma [34. panta](https://likumi.lv/ta/id/353390-nacionalas-kiberdrosibas-likums#p34) otrajā, trešajā, piektajā un sestajā daļā noteiktajos termiņos ziņo kompetentajai kiberincidentu novēršanas institūcijai, nosūtot uz tās elektroniskā pasta adresi elektroniski aizpildītu un ar drošu elektronisko parakstu parakstītu:
+| 119.1. | agrīnā brīdinājuma veidlapu ([10. pielikums](https://likumi.lv/ta/id/361481-minimalas-kiberdrosibas-prasibas#piel10));
+| 119.2. | sākotnējā ziņojuma veidlapu ([11. pielikums](https://likumi.lv/ta/id/361481-minimalas-kiberdrosibas-prasibas#piel11));
+| 119.3. | progresa ziņojuma veidlapu ([12. pielikums](https://likumi.lv/ta/id/361481-minimalas-kiberdrosibas-prasibas#piel12)), ja attiecināms;
+| 119.4. | starpposma ziņojuma veidlapu ([13. pielikums](https://likumi.lv/ta/id/361481-minimalas-kiberdrosibas-prasibas#piel13)), ja attiecināms;
+| 119.5. | galaziņojuma veidlapu ([14. pielikums](https://likumi.lv/ta/id/361481-minimalas-kiberdrosibas-prasibas#piel14)).
+| 120. | Par kiberincidentu, kurš nav uzskatāms par nozīmīgu kiberincidentu, subjekts ziņo kompetentajai kiberincidentu novēršanas institūcijai, nosūtot uz tās elektroniskā pasta adresi kiberincidenta aprakstu brīvā formā.
+| 121. | IKT kritiskās infrastruktūras īpašnieks vai tiesiskais valdītājs un būtiskā pakalpojuma sniedzējs  šo noteikumu [119.](https://likumi.lv/ta/id/361481-minimalas-kiberdrosibas-prasibas#p119) un [120.](https://likumi.lv/ta/id/361481-minimalas-kiberdrosibas-prasibas#p120) punktā minētos ziņojumus nosūta arī [Satversmes aizsardzības birojam](https://www.sab.gov.lv/). | K
+
+### 8.1. Atbilstības audits (Subjektu kiberdrošības uzraudzība)
+| Atsauce | Prasība | Subjekts (ja ir norāde) | Komentāri |
+|---------|---------|-------------------------|-----------|
+| 122. | Lai subjekts varētu veikt atbilstības auditu, kas noteikts [Nacionālās kiberdrošības likumā](https://likumi.lv/ta/id/353390-nacionalas-kiberdrosibas-likums), Digitālās drošības uzraudzības komiteja kiberdrošības auditoru sarakstā (turpmāk – auditoru saraksts) reģistrē auditoru, kurš atbilst šādām prasībām:
+| 122.1. | auditors ir juridiska vai fiziska persona, kura atbilst šo noteikumu [94. punktā](https://likumi.lv/ta/id/361481-minimalas-kiberdrosibas-prasibas#p94) minētajām prasībām;
+| 122.2. | auditoram vai tā nodarbinātajam personālam ir nepieciešamās zināšanas kiberdrošības audita jomā, ko apliecina starptautiski atzīti sertifikāti (piemēram, CISA, ISO/IEC 27001 Lead Auditor, CISSP);
+| 122.3. | auditoram ir tehniskas iespējas noteikt subjekta tīklu, informācijas sistēmu, IKT resursu un procedūru drošības atbilstību normatīvo aktu prasībām kiberdrošības jomā.
+| 123. | Papildus šo noteikumu [122. punktā](https://likumi.lv/ta/id/361481-minimalas-kiberdrosibas-prasibas#p122) noteiktajām prasībām auditoram, kurš ir tiesīgs veikt mākoņdatošanas pakalpojumu vai datu centru pakalpojumu sniedzēja atbilstības auditu, piemēro šādas prasības:
+| 123.1. | auditoram vai tā nodarbinātajam personālam ir nepieciešamās zināšanas datu centru kiberdrošības audita jomā, ko apliecina starptautiski atzīti sertifikāti (piemēram, CDCAP) un vismaz divu gadu darba pieredze kiberdrošības auditu jomā;
+| 123.2. | auditoram ir tehniskas iespējas veikt datu centra auditu pēc starptautisko standartu prasībām datu centru kiberdrošības jomā.
+| 124. | Lai auditors tiktu reģistrēts auditoru sarakstā, tas iesniedz Digitālās drošības uzraudzības komitejai:
+| 124.1. | aizpildītu un parakstītu kiberdrošības auditora reģistrācijas pieteikuma veidlapu ([15. pielikums](https://likumi.lv/ta/id/361481-minimalas-kiberdrosibas-prasibas#piel15));
+| 124.2. | šo noteikumu [122.2. apakšpunktā](https://likumi.lv/ta/id/361481-minimalas-kiberdrosibas-prasibas#p122.2) minēto sertifikātu kopijas;
+| 124.3. | ja attiecināms, šo noteikumu [123.1. apakšpunktā](https://likumi.lv/ta/id/361481-minimalas-kiberdrosibas-prasibas#p123.1) minēto sertifikātu kopijas.
+...
 
 to be continued...
 
@@ -233,4 +307,4 @@ to be continued...
 [^7]: gandrīz noticis kiberincidents — notikums, kurš būtu varējis apdraudēt apstrādātus datus vai tīklu un informācijas sistēmu piedāvāto vai ar tīklu un informācijas sistēmu starpniecību pieejamo pakalpojumu pieejamību, autentiskumu, integritāti vai konfidencialitāti, bet kura pilnīga īstenošanās tika sekmīgi novērsta vai kurš neīstenojās [Nacionālās kiberdrošības likums, 1. pants](https://likumi.lv/ta/id/353390#p1)
 [^8]: ievainojamība — informācijas un komunikācijas tehnoloģiju vai to pakalpojumu vājums, uzņēmība pret tehniskām problēmām vai nepilnība, kas var tikt izmantota kiberapdraudējumam [Nacionālās kiberdrošības likums, 1. pants](https://likumi.lv/ta/id/353390#p1)
 [^9]: Punkts 84. - Nacionālais kiberdrošības centrs sadarbībā ar Satversmes aizsardzības biroju izstrādā, vismaz reizi gadā pārskata un nepieciešamības gadījumā aktualizē vadlīnijas subjektiem šifrēšanas risinājumu izmantošanai. Vadlīnijas publicē Nacionālā kiberdrošības centra ([saite](https://www.cyber.gov.lv/lv/minimalas-kiberdrosibas-prasibas-un-nis2/vadlinijas)) un Satversmes aizsardzības biroja tīmekļvietnē ([var atrast šeit](https://www.sab.gov.lv/sab-uzdevumi/it-kritiskas-infrastrukturas-uzraudziba/)).
-
+[^10]: Punkts 83. - Subjekts var nelietot šo noteikumu 81. punktā minētos šifrēšanas risinājumus, ja subjekts risku novērtējuma ietvaros ir noteicis risku novēršanas pasākumus gadījumā, ja šifrēšanas risinājumu izmantošana nav tehniski iespējama.
